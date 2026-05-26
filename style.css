@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+body {
+    /*background-image: url("images/Intro_flashback_1.png");*/
+    background-color: #ffffff;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+.title {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav {
+    display: flex;             
+    justify-content: center;  
+    gap: 20px;                  
+    padding: 15px;
+    background-color: white;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 35px;
+
+    background-color: #801818;
+    color: white;
+
+    text-decoration: none;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 20px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #a02020;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 20px;
+}
+
+/* images sur les côtés */
+.side {
+    width: 25%;
+}
+
+.side img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.center-text {
+    width: 50%;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.center-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.center-text p {
+    font-size: 1.2rem;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+.features h3 {
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+.features p {
+    font-size: 1rem;
+    opacity: 0.8;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 25%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    font-family: "Pixelify Sans", sans-serif;
+    line-height: 1.6;
+}
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+footer {
+    background: none;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.socials {
+    margin: 10px 0;
+}
+
+.socials a {
+    color: rgb(128, 24, 24);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.socials a:hover {
+    color: #00bcd4;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 30px;
+
+    background-color:  #801818;
+    color: white;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+
+    text-decoration: none;
+    border-radius: 12px;
+    border: none;
+
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #a02020;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page-title {
+    text-align: center;
+    font-size: 3rem;
+    margin: 50px 0;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.our-game {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.step.reverse {
+    flex-direction: row-reverse;
+}
+
+.step img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.step-text {
+    flex: 1;
+}
+
+.step-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.step-text p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.download-section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.download-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    margin: 50px 0;
+}
+
+.download-item {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+
+    /* effet carte */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+    position: relative;
+}
+
+.download-item:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.download-item p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.download-item a {
+    display: inline-block;
+    padding: 10px 20px;
+
+    background-color: #801818;
+    color: white;
+
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+.download-item a:hover {
+    background-color: #a02020;
+    transform: scale(1.05);
+}
+
+.game-download {
+    margin-top: 40px;
+}
+
+
+
+.references {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.ref-item {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.ref-item:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+.ref-preview img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.ref-content {
+    margin-left: 20px;
+}
+
+.ref-content h3 {
+    margin: 0;
+    color: #800000;
+}
+
+.ref-content a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #800000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ref-content a:hover {
+    text-decoration: underline;
+}
+
+
+.team {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.team-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto 60px;
+    opacity: 0.8;
+}
+
+
+.team-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.member-block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.member-block.reverse {
+    flex-direction: row-reverse;
+}
+
+
+.member-block img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.member-block:nth-child(odd) img {
+    transform: rotate(-2deg);
+}
+
+.member-block:nth-child(even) img {
+    transform: rotate(2deg);
+}
+
+.member-text {
+    flex: 1;
+}
+
+.member-text h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.member-text p {
+    opacity: 0.8;
+}
+
+.member-right-img {
+    width: 200px;
+    border-radius: 20px;
+    transform: rotate(3deg); 
+    transition: transform 0.3s ease;
+}
+
+.member-right-img:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+.member-right-img {
+    width: 200px;
+    border-radius: 20px;
+    transform: rotate(3deg);
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.2);
+}
